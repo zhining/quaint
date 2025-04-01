@@ -116,12 +116,12 @@ optional = true
 rev = "e3f8bdb41d57e769412f53d0f479bf67fdcc0ee3"
 
 [dependencies.rusqlite]
-version = "^0.30.1"
+version = "^0.33.0"
 features = ["chrono", "bundled", "column_decltype"]
 optional = true
 
 [dependencies.libsqlite3-sys]
-version = "0.22"
+version = "0.32.0"
 default-features = false
 features = ["bundled"]
 optional = true
